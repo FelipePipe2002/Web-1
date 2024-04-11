@@ -1,0 +1,220 @@
+body {
+    background-color: #e6fffd;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0px;
+}
+
+.header {
+    background-color: #77a4ce;
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu {
+    background-color: #77a4ce;
+    display: flex;
+    align-items: center;
+}
+
+.register {
+    position: absolute;
+    right: 0;
+    background-color: #77a4ce;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .register {
+        display: none;
+    }
+}
+
+
+
+.register h3 {
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+
+.header a h1 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.spacer {
+    height: 58px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.notenoughtcontent {
+    position: absolute;
+    bottom: 0;
+    ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notenoughtcontent h4 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.titulo {
+    background-color: #90b9ff;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estructura {
+    width: 100%;
+    display: flex;
+}
+
+.noticias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+}
+
+.noticebox {
+    background-color: #dddddd;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    min-width: 20%;
+    text-align: center;
+}
+
+.noticebox a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.noticebox h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noticebox p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.publicidades {
+    background-color: #86cfc3;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.publicidades ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.publicidades li {
+    list-style: none;
+}
+
+.publicidades li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.publicidades img {
+    width: 70%;
+}
+
+.registerForm {
+    background-color: #abfcee;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.registerForm h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.registerForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerForm form div {
+    margin: 5px 0px;
+}
+
+.registerForm form label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.registerForm form input {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
